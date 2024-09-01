@@ -1,0 +1,5 @@
+composer remove maatwebsite/excel
+composer require psr/simple-cache:^1.0 maatwebsite/excel --ignore-platform-reqs --with-all-dependencies
+ php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
+
+ pake tutorial https://www.malasngoding.com/export-excel-laravel/
